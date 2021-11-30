@@ -117,3 +117,37 @@ footer p {
     box-sizing: border-box;
     height: 200px;
 }
+
+@media screen and (max-width: 750px) {
+    .gallery-image {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #logo {
+        /* display: none; */
+        position: relative;
+        margin-left: 35%;
+    }
+}
+
+.about-container {
+    overflow: auto;
+    background-color: khaki;
+}
+
+.about-image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-area {
+    padding: 20px;
+    padding-top: 0;
+}
