@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.outer-container {
+    border: black 3px solid;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+header {
+    background-color: bisque;
+    overflow: auto;
+    position: relative;
+}
+
+#logo {
+    max-width: 100px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#logo-title {
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 6px;
+}
+
+nav {
+    text-align: center;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    background-color: white;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 66px;
+    font-family: 'Bebas Neue', cursive;
+    padding-right: 40px;
+}
+
+nav ul li:hover {
+    color: hotpink;
+}
+
+nav ul li:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* intro area */
+
+.intro-container {
+    background-color: khaki;
+    overflow: auto;
+}
+
+.image-container {
+    max-width: 600px;
+    margin: 0;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.intro-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid black 6px;
+    box-sizing: border-box;
+}
+
+.intro-text {
+    max-width: 600px;
+    float: left;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+
+/* FOOTER AREA */
+
+footer {
+    background-color: bisque;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: black 2px solid;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+/* gallery */
+
+.gallery-container {
+    overflow: auto;
+    background-color: khaki;
+}
+
+.gallery-image {
+    width: 25%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 200px;
+}
